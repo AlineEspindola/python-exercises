@@ -19,7 +19,7 @@ matrix_2x3 = [
 
 matrix_3x3 = [
     [1, 2, 3],
-    [4, 5, 6]
+    [4, 5, 6],
     [1, 2, 42]
 ]
 
@@ -39,11 +39,9 @@ class SolutionLogic:
 
 solution_fast = SolutionFast()
 transposed_matrix_fast = solution_fast.transpose(matrix_2x3) 
-print("Transposta usando SolutionFast:", transposed_matrix_fast)
+print(f"A matriz transporta de {matrix_2x3} é {transposed_matrix_fast}")
 
-# Usar a classe SolutionLogic
 solution_logic = SolutionLogic()
 transposed_matrix_logic = solution_logic.transpose(matrix_3x3)  
-print("Transposta usando SolutionLogic:", transposed_matrix_logic)
-
+print(f"A matriz transporta de {matrix_3x3} é {transposed_matrix_logic}")
         
