@@ -1,0 +1,119 @@
+print("SEQUENCIAL------------------------------")
+x = 8
+y = 5
+
+print(f"A soma é {x+y}")
+print(f"A multiplicação é {x*y}")
+
+print("CONDICIONAL------------------------------")
+
+if x == y:
+    print("É igual")
+else:
+    print("Não é igual")
+    
+print("LOOPS------------------------------")
+
+for i in range(2,5):
+ print(f"X + {i} = {x+i}")
+ 
+for j in "Batman":
+    print(f"Batman tem a letra '{j}' ")
+    
+b = True
+c = 0
+while b:
+    if c+x == 10:
+        print ("SIM")
+        b = False
+    else:
+        print("NÃO")
+        c +=1
+    
+print("VETORES------------------------------")
+# lista = ["Batman", "Batgirl", "Robin", "Bat-Vaca"]
+# lista.append("Ace")
+# lista.extend(["Batwoman", "Batgirl Cassandra"])
+# lista.remove("Robin")
+
+# veiculos = ["Batmobile", "Batwing", "Jokermobile"]
+# veiculos.pop(2)
+# veiculos.insert(1, "Batboat")
+# for l in lista:
+#     print(f"{l} é membro da Batfamília")
+    
+# for v in veiculos:
+#     print(f"{v} é do Batman")
+    
+# print(f"{lista[1]} é minha heroína favorita")
+
+vilReal = ["Coringa", "Pinguim", "Charada"]
+vilCien = ["Senhor Frio", "Hera Venenosa", "Cara de Barro"]
+vilLuta = ["Bane", "Ra´s Al Ghul", "Exterminador"]
+
+vil = [vilReal, vilCien, vilLuta]
+print(f"{vil[2][0]} é meu favorito")
+
+print("MATRIZES------------------------------")
+
+
+
+#Questão 1
+
+# x = int(input("Digite um número: "))
+# y = int(input("Digite outro número: "))
+
+# print(f"O primeiro número elevado ao segundo é {x**y}")
+
+# Questão 2
+
+# idade = int(input("Digite sua idade: "))
+
+# if idade<18:
+#     print("Você é menor de idade")
+# else:
+#     print("Você é maior de idade")
+
+# QUestão 3
+
+# n = int(input("Digite um número número: "))
+
+# for i in range(1, 11):
+#     print(f"{n} x {i} = {n*i}")
+
+# QUestão 4
+
+# numeros = []
+# for i in range (5):
+#     n = int(input("Digite um número: "))
+#     numeros.append(n)
+    
+# maior = numeros[0]
+# for j in numeros:
+#     if j>maior:
+#         maior = j
+        
+# print(f"O maior é {maior}")
+
+# QUestão 5
+
+matriz = [[], []]
+for i in range(2):
+    for j in range(2):
+        n = int(input("Digite um número: "))
+        matriz[i].append(n)
+        
+total = 0
+for i in range(2):
+    for j in range(2):
+        total += matriz[i][j]
+
+print(f"O total é {total}")
+        
+
+
+
+
+
+
+Taca isso numa página do teu repositório GitHub?
