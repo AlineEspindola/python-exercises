@@ -145,3 +145,30 @@ for i in range(len(matrix)):
             column = j
 
 print(f"Linha {line + 1} e coluna {column + 1}")
+
+
+
+
+
+
+
+# Receba segundos e transforme em formato HH:mm:ss
+
+seconds = int(input("Digite os segundos: "))
+
+hours = seconds//3600
+seconds = seconds%3600
+minutes = seconds//60
+seconds = seconds%60
+
+if hours < 10:
+    hours = f"0{hours}"
+
+if minutes < 10:
+    minutes = f"0{minutes}"
+    
+if seconds < 10:
+    seconds = f"0{seconds}"
+    
+print(f"{hours}:{minutes}:{seconds}")
+
