@@ -172,3 +172,27 @@ if seconds < 10:
     
 print(f"{hours}:{minutes}:{seconds}")
 
+
+
+
+
+
+n1 = int(input("Digite a nota 1: "))
+p1 = int(input("Digite o peso da nota 1: "))
+n2 = int(input("Digite a nota 2: "))
+p2 = int(input("Digite o peso da nota 2: "))
+
+m = ((n1*p1)+(n2*p2))/(p1+p2)
+
+print(m)
+
+
+
+
+
+c = float(input("Digite a temperatura em graus Celsius: "))
+
+f = (c*1.8)+32
+
+print(f"{f} *F")
+
